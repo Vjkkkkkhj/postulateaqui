@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Link Redirect</title>
+    <script>
+        function randomLink() {
+            const links = [
+                "https://wa.link/47lss6",
+                "https://wa.link/gi1bj4"
+            ];
+            const randomIndex = Math.floor(Math.random() * links.length);
+            window.location.href = links[randomIndex];
+        }
+    </script>
+</head>
+<body onload="randomLink()">
+    <p>Redirecting...</p>
+</body>
+</html>
