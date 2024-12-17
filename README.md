@@ -7,8 +7,8 @@
     <script>
         function redirigirWhatsApp() {
             const enlaces = [
-                "https://wa.link/47lss6", // Primer WhatsApp
-                "https://wa.link/gi1bj4"  // Segundo WhatsApp
+                "https://wa.link/h6bfex", // Primer WhatsApp
+                "https://wa.link/cmqck9"  // Segundo WhatsApp
             ];
             const indiceAleatorio = Math.floor(Math.random() * enlaces.length);
             window.location.href = enlaces[indiceAleatorio];
