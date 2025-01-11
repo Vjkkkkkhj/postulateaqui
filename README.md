@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirección a WhatsApp</title>
+    <title>Madam Sugilite Postulaciones</title>
     <script>
         function redirigirWhatsApp() {
             const enlaces = [
